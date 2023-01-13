@@ -25,7 +25,7 @@ fn run() -> Result<()> {
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
 <head><title></title></head>
 <body>
-<p>Text of the page<T></p>
+<p>Text of the page</p>
 </body>
 </html>"#;
     let dummy_content_with_id = dummy_content.replace("<p>", "<p id=\"p1\">");
